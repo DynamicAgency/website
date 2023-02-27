@@ -1,140 +1,76 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Dynamic Agency</title>
-  <meta name="description" content="!!! NOG IN TE VULLEN !!!">
-  <meta name="author" content="Jasper Veraart">
+    <title>Dynamic Agency - Creating for you!</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="!!! NOG IN TE VULLEN !!!">
+    <meta name="author" content="Jasper Veraart">
 
-  <link href="//fonts.googleapis.com/css?family=Roboto:400,300,600" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
+    <!--    Load fonts-->
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,300,600" rel="stylesheet" type="text/css">
 
-  <link rel="icon" type="image/png" href="media/favicon.png">
+    <!--    Load a reset stylesheet-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!--    Load a general style sheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--    Load a specifiek page stylesheet-->
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    <!--    Load favicon-->
+    <link rel="icon" type="image/png" href="assets/media/images/favicon.ico">
 </head>
-
 <body>
 <header>
-  <nav class="nav-show">
-    <div class="container">
-      <ul>
-        <li><a href="#">Dynamic Agency</a></li>
-        <li class="right"><a href="/portfolio">Portfolio</a></li>
-        <li class="right"><a href="#contact">Contact</a></li>
-        <li class="right"><a href="#over-ons">Over ons</a></li>
-        <li class="right"><a href="#home">Home</a></li>
-        <li class="icon">
-          <a href="javascript:void(0);" onclick="toggleMobileNav();">&#9776;</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <nav class="nav container">
+        <img class="nav-img" src="assets/media/images/logo_black.png" alt="Dynamic Agency">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Over ons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
 </header>
 
 <main>
-  <div id="home" class="background-video">
-    <video playsinline autoplay muted loop><source src="media/video/background.webm" type="video/webm"></video>
-    <h1>Dynamic Agency</h1>
-    <p>HIERONDER VERSCHILLENDE TAGS</p>
-  </div>
 
-
-  <h2 class="title">Over ons</h2>
-  <div class="over-ons container">
-    <div class="eight columns">
-      <p class="twelve columns">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis auctor erat. Praesent porttitor eros quis ligula tempus finibus. Cras in blandit nisl. Pellentesque mollis ligula vehicula est convallis, et sodales est hendrerit. Mauris augue ante, varius eget pellentesque in, porttitor eget lorem. Aliquam erat volutpat. Proin nisl ex, pulvinar molestie nisl non, viverra iaculis dolor. Donec dapibus accumsan felis et ultricies. Phasellus bibendum accumsan vestibulum. Quisque est ante, tempus nec consectetur et, convallis id sapien. Praesent tempus odio pharetra rhoncus mattis. Praesent in lectus eget ligula cursus auctor. </p>
-      <p class="twelve columns">Quisque lacinia mattis enim tincidunt semper. Nulla euismod mi sapien, vitae sollicitudin odio tempor id. Praesent gravida lectus non libero eleifend auctor. Nulla id augue purus. Aenean euismod enim ante, vel euismod enim volutpat quis. Etiam aliquam risus ac enim interdum, sed consectetur sapien venenatis. Nullam id risus semper, pretium nunc non, vehicula erat. Ut malesuada enim nisi, nec tempor metus laoreet vitae. In hac habitasse platea dictumst. </p>
+    <div id="home" class="background-video">
+        <video playsinline autoplay muted loop><source src="/assets/media/video/background.mp4" type="video/mp4"></video>
+        <div class="container">
+            <div id="title">
+                <h1>Dynamic Agency</h1>
+                <h2>Creating for you!</h2>
+            </div>
+            <p class="">C'mon, big ship. go to port degas. Ah, dead reef. go to pantano river. Ships resist with hypnosis at the spheroid solar sphere!</p>
+            <a class="button-primary" href="/contact">Creating for you?</a>
+        </div>
     </div>
 
-    <div class="four columns">
-      <img style="width: 100%" src="/media/images/office.jpg" alt="">
-    </div>
-  </div>
-  <div id="online-content" class="container services">
-    <div class="four columns card">
-      <div>
-        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_5bwhucnr.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-      </div>
-      <h3>Online content</h3>
-      <p>Van video tot foto's en van logo ontwerpen tot volledige company branding. Bij Dynamic Agency bent u bij het juiste adres.
-        De mogelijkheden in het huidige digitale tijdperk zijn eindeloos en het kan daarom lastig zijn te bepalen welke vorm
-        van online content het beste aansluit bij uw project. Samen met een van onze content specialisten stellen we een plan van
-        aanpak op dat perfect past bij uw behoeften. Zo bent u ervan verzekerd dat de door u gekozen doelstelling optimaal behaald
-        beworden met de hoogste kwaliteit content. </p>
-      <button><a href="diensten/online-content">Lees meer</a></button>
-    </div>
-    <div id="website-beheer" class="four columns card">
-      <div>
-        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_mjr11zfo.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-      </div>
-      <h3>Website beheer</h3>
-      <p>Een goede website is de absolute basis van een goed bedrijf. Het is daarom van groot belang dat uw website de bezoeker
-        direct interesseert. In samenwerking met onze marketing specialisten en developers wordt voor u de perfecte website ontworpen,
-        gebouwd en onderhouden. </p>
-      <button class="test"><a href="diensten/website-beheer">Lees meer</a></button>
-    </div>
-    <div id="online-marketing" class="four columns card">
-      <div>
-        <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_i0cTdc.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-      </div>
-      <h3>Online marketing</h3>
-      <p>Is uw bedrijf al voorzien van een website? Dan is het belangrijk dat deze door de juiste doelgroep wordt gevonden op internet.
-        Hiervoor stellen we samen met u vast wie u precies wilt bereiken met uw website en welke vervolg actie u verwacht van de website
-        bezoeker. Samen met onze allerbeste SEO specialisten gaan we deze doelstellingen voor u realiseren.</p>
-      <button><a href="diensten/online-marketing">Lees meer</a></button>
-    </div>
-  </div>
-
-  <h2 id="" class="title">Contact</h2>
-  <div id="contact" class="container">
-    <form action="" class="eight columns">
-      <div class=" six columns">
-        <label for="contact_naam">Wat is uw naam?</label>
-        <input class="input" id="contact_naam" type="text" name="name" placeholder="Type hier uw naam...">
-      </div>
-
-      <div class="six columns">
-        <label for="contact_email">Wat is uw email adres?</label>
-        <input class="input" id="contact_email" name="email" type="email" placeholder="Type hier uw email adres...">
-      </div>
-
-      <div class="twelve columns">
-        <label for="contact_subject">Onderwerp bericht</label>
-        <input class="input" id="contact_subject" name="subject" type="text" placeholder="Type hier het onderwerp van uw bericht...">
-      </div>
-      
-      <div class="twelve columns">
-        <label for="contact_message">Uw bericht</label>
-        <textarea class="input" id="contact_message" name="message" placeholder="Type hier uw bericht..."></textarea>
-      </div>
-      
-      <div class="twelve columns">
-        <input type="submit" value="Verzenden">
-      </div>
-    </form>
-
-    <div class="four columns">
-      <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_twijbubv.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover loop  ></lottie-player>
-    </div>
-  </div>
 </main>
 
-<footer>
-  <div class="container">
-    <p class="four columns spacer">&copy; 2022 Dynamic Agency</p>
-    <div class="four columns spacer"></div>
-    <p><a href="four columns spacer">Algemene voorwaarden</a></p>
-  </div>
-
+<footer class="footer">
+    <div class="container">
+        <p class="footer-item">&copy; Dynamic Agency</p>
+        <a class="footer-item" href="#">Algemene voorwaarde</a>
+    </div>
 </footer>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="js/custom.js"></script>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
 </body>
 </html>
