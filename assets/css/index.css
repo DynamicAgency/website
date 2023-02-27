@@ -1,0 +1,46 @@
+video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.background-video {
+    position: relative;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    z-index: 1;
+    color: #FfFFFF;
+}
+
+
+#title h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+#title h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+}
+
+#home p, #home a{
+    font-size: 20px;
+    max-width: 500px;
+}
